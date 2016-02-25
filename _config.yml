@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+gems:                [jekyll-paginate]
+paginate:            5
+paginate_path:       "page:num"
+
+# Setup
+title:               "tomek's blog"
+tagline:             "now I'll lie"
+description:         'random thoughts of <a href="https://twitter.com/TomaszRekawek" target="_blank">@TomaszRekawek</a>.'
+url:                 http://blog.rekawek.eu
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Tomek Rękawek
+  url:               http://tomek.rekawek.eu
+  email:             tomek@rekawek.eu
+
+# Custom vars
+version:             1.0.0
