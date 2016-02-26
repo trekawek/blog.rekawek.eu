@@ -3,7 +3,7 @@ title: Radio AdBlock
 layout: post
 ---
 
-Polish Radio Three (so-called Trójka) is famous for broadcasting good music and having non-offensive speakers. On the other hand it suffers from the number of commercial blocks between auditions. The ads, usually related to drugs or electronics are loud and irritating. Trójka accompanies me in home and in the work for most of the time, so I wondered if there's something than can be done about the ads. It seems there is.
+Polish Radio Three (so-called Trójka) is famous for broadcasting good music and having non-offensive speakers. On the other hand it suffers from the number of commercial blocks between auditions. The ads, usually related to drugs or electronics are loud and irritating. Trójka accompanies me in home and at work for most of the time, so I wondered if there's something than can be done about the ads. It seems there is.
 
 ## digital signal processing
 
