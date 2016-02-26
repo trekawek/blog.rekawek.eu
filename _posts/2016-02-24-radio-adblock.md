@@ -27,7 +27,7 @@ People usually describes the cross-corellation referring to the MATLAB implement
 
 it'll result in following plot:
 
-![octave plot](./assets/octave-result.png){:width="50%"}
+![octave plot]({{ site.baseurl }}/assets/octave-result.png){:width="50%"}
 
 As you can see, there's a peek describing the position of the `jingle.wav` within the `audio.wav`. What suprised me is the simplicity of the method - the `xcorr()` makes all the work, the rest of the Octave code is just for reading the files and displaying the result.
 
@@ -92,9 +92,9 @@ Apparently, it works :)
 
 ## standalone version
 
-I also prepared a simple standalone version of the analyzer, that connects to the Trójka stream on its own (without an external `ffmpeg`) and plays the result using `javax.sound`. The whole thing is a single JAR file and contains a basic start/stop UI. It can be downloaded here: [radioblock.jar](./files/radioblock.jar). If you feel uneasy about running a foreign JAR on your machine (like you should do), all the sources can be found on my [GitHub](https://github.com/trekawek/radioblock).
+I also prepared a simple standalone version of the analyzer, that connects to the Trójka stream on its own (without an external `ffmpeg`) and plays the result using `javax.sound`. The whole thing is a single JAR file and contains a basic start/stop UI. It can be downloaded here: [radioblock.jar]({{ site.baseurl }}/files/radioblock.jar). If you feel uneasy about running a foreign JAR on your machine (like you should do), all the sources can be found on my [GitHub](https://github.com/trekawek/radioblock).
 
-![Radioblock](./assets/radioblock-swing-ui.png)
+![Radioblock]({{ site.baseurl }}/assets/radioblock-swing-ui.png)
 
 ## further work
 

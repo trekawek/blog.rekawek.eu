@@ -11,7 +11,7 @@ title:               "tomek's blog"
 tagline:             "now I'll lie"
 description:         'random thoughts of <a href="https://twitter.com/TomaszRekawek" target="_blank">@TomaszRekawek</a>.'
 url:                 http://blog.rekawek.eu
-baseurl:             ''
+baseurl:             ""
 paginate:            5
 
 # About/contact
