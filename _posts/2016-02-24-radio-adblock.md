@@ -83,7 +83,8 @@ Getting the stream in PCM format is easy and can be done using aforementioned `f
     ffmpeg -loglevel -8 \
            -i http://stream3.polskieradio.pl:8904/\;stream \
            -f s16le -acodec pcm_s16le - \
-      | java -cp analyzer-1.0.0-SNAPSHOT.jar eu.rekawek.radioblock.MuteableMain RATE_44_1 \
+      | java -cp analyzer-1.0.0-SNAPSHOT.jar \
+                 eu.rekawek.radioblock.MuteableMain RATE_44_1 \
       | play -r 44100 -b 16 -c 2 -e signed -t raw -
 
 Apparently, it works :)
