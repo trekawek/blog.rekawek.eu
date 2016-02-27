@@ -99,4 +99,4 @@ I also prepared a simple standalone version of the analyzer, that connects to th
 
 ## further work
 
-The final goal is to mute ads on a hardware amplituner, receiving a "real" FM signal rather than some internet streams. This will be covered in the next blog post.
+The final goal is to mute ads on a hardware amplituner, receiving a "real" FM signal rather than some internet streams. This will be covered in the [next blog post](/2016/02/27/radio-adblock-2/).
