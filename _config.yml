@@ -9,7 +9,7 @@ paginate_path:       "page:num"
 # Setup
 title:               "tomek's blog"
 tagline:             "now I'll lie"
-description:         'random thoughts of <a href="https://twitter.com/TomaszRekawek" target="_blank">@TomaszRekawek</a>.'
+description:         'random thoughts of <a href="https://twitter.com/Tomek1024" target="_blank">@Tomek1024</a>.'
 url:                 http://blog.rekawek.eu
 baseurl:             ""
 paginate:            5
