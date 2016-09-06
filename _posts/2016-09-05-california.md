@@ -47,7 +47,7 @@ It's really strange to see such lake in the middle of a huge metropoly.
 
 # Mulholland highway
 
-A really good way to feel the Americans love for their cars is going to the Mulholland highway in the Sunday morning. The road is very curvy, scenic and runs through the mountains. Every week you can spot multiple sport cars there, from old BMW to new Ferraris and from Corvettas to Fiskers.
+A really good way to feel the Americans love for their cars is going to the Mulholland highway in the Sunday morning. The road is very curvy, scenic and runs through the mountains. Every week you can spot multiple sport cars there, from old BMW to new Ferraris and from Corvettes to Fiskers.
 
 ![Corvette](https://farm9.staticflickr.com/8298/28789334783_cbd5e8a56b_z_d.jpg)
 ![Old Porsche](https://farm9.staticflickr.com/8536/29411137375_a13e129228_z_d.jpg)
