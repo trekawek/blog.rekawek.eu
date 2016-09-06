@@ -47,13 +47,13 @@ It's really strange to see such lake in the middle of a huge metropoly.
 
 # Mulholland highway
 
-A really good way to feel the Americans love for their cars is going to the Mulholland highway in the Sunday morning. The road is very curvy, scenic and runs through the mountains. Every week you can spot multiple sport cars there, from old BMW to new Ferraris and from Corvettes to Fiskers.
+A really good way to feel the Americans' love for their cars is going to the Mulholland highway in the Sunday morning. The road is very curvy, scenic and runs through the mountains. Every week you can spot multiple sport cars there, from old BMW to new Ferraris and from Corvettes to Fiskers.
 
 ![Corvette](https://farm9.staticflickr.com/8298/28789334783_cbd5e8a56b_z_d.jpg)
 ![Old Porsche](https://farm9.staticflickr.com/8536/29411137375_a13e129228_z_d.jpg)
 
 # iCalifornia
 
-Last day I hailed an Uber to get to the airport. A black lady was driving and listening to some really nice music. She wasn't really talkative (unlike the other Uber drivers), but that was fine. I used Shazam to find out what song is that. A minute later the whole album was downloaded to my phone. We exchange a few words about crazy taxi prices and she wished me a good flight. Later, I submitted an Uber comment to the ride: "great music, thanks!". Now it's time to go home.
+Last day I hailed an Uber to get to the airport. A black lady was driving and listening to some really nice music. She wasn't really talkative (unlike the other Uber drivers), but that was fine. I used Shazam to find out what song is that. A minute later the whole album was downloaded to my phone. We exchanged a few words about crazy taxi prices and she wished me a good flight. Later, I submitted an Uber comment to the ride: "great music, thanks!". Now it's time to go home.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/w2ZB7WF_Hko" frameborder="0" allowfullscreen></iframe>
