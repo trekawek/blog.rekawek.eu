@@ -43,7 +43,7 @@ The main museum in Los Angeles is [LACMA](http://www.lacma.org). It isn't unusua
 
 It's really strange to see such lake in the middle of a huge metropoly.
 
-![Tar pit](https://farm9.staticflickr.com/8491/29411212885_89efa9c9a0_z_d.jpg)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ZMss9a-fU2o" frameborder="0" allowfullscreen></iframe>
 
 # Mulholland highway
 
