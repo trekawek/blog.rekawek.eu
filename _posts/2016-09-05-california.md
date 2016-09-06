@@ -9,7 +9,7 @@ Travelling alone has its bright and dark sides. You can neither share the excite
 
 In the museum you will find a former [ballistic missile](https://en.wikipedia.org/wiki/LGM-30_Minuteman) that after its retirement started an academia career as an univeristy, general-purpose computer.
 
-![Minuteman ballistic missile](https://farm9.staticflickr.com/8250/29376655486_998049796e_z_d.jpg)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/108786967@N03/29376655486/in/album-72157673228457166/" title="IMG_2861"><img src="https://c7.staticflickr.com/9/8250/29376655486_998049796e_z.jpg" width="640" height="480" alt="IMG_2861"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 # Renting a car
 
@@ -25,7 +25,7 @@ She also told me that they have a red Camaro, but Mustang (which I originally bo
 
 Really, I didn't have a chance.
 
-![Camaro](https://farm9.staticflickr.com/8423/29411223655_2904fbb394_z_d.jpg)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/108786967@N03/29411223655/in/album-72157673228457166/" title="IMG_2947"><img src="https://c8.staticflickr.com/9/8423/29411223655_2904fbb394_z.jpg" width="640" height="480" alt="IMG_2947"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 # Pacific Coast Highway
 
@@ -49,8 +49,9 @@ It's really strange to see such lake in the middle of a huge metropoly.
 
 A really good way to feel the Americans' love for their cars is going to the Mulholland highway in the Sunday morning. The road is very curvy, scenic and runs through the mountains. Every week you can spot multiple sport cars there, from old BMW to new Ferraris and from Corvettes to Fiskers.
 
-![Corvette](https://farm9.staticflickr.com/8298/28789334783_cbd5e8a56b_z_d.jpg)
-![Old Porsche](https://farm9.staticflickr.com/8536/29411137375_a13e129228_z_d.jpg)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/108786967@N03/28789334783/in/album-72157673228457166/" title="IMG_3081"><img src="https://c8.staticflickr.com/9/8298/28789334783_cbd5e8a56b_z.jpg" width="640" height="480" alt="IMG_3081"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/108786967@N03/29411137375/in/album-72157673228457166/" title="IMG_3089"><img src="https://c8.staticflickr.com/9/8536/29411137375_a13e129228_z.jpg" width="640" height="480" alt="IMG_3089"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 # iCalifornia
 
