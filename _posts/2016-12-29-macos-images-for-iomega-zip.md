@@ -14,10 +14,16 @@ I dumped the zip floppies into disk images, so they can be easily restored. All 
 
 Besides from the system, images contain a fair amount of abandonware tools and games (MacWrite, MacPaint, MS Excel & Word, StuffIt, ZTerm, Civilization, Lemmings, etc.)
 
-![System 7.5.5 on Mac Plus](/assets/mac/system755.png)
-
 If you use OS X / Linux, the images can be written to the zip floppies using the `dd` command:
 
     gzip -c system608-zip.image.gz | dd of=/dev/diskX
 
 where /dev/diskX is the appropriate device. On the OS X it's a good idea to disable the automount feature, as the OS may corrupt the old HFS filesystem once it's written. The [Disk Arbitrator](https://github.com/aburgh/Disk-Arbitrator/releases) can be used for this purpose.
+
+The images can be also used with emulators (like vMac or Basilisk II). It's only required to extract the HFS filesystem (as the image also contains the IOmega drive, partition table which confuses the emulator etc.):
+
+    gzip -c system608-zip.image.gz | dd bs=512 count=196106 skip=491 of=system608-hfs.image
+
+The resulting `system608-hfs.image` is an emulator-bootable image:
+
+![System 7.5.5 on Mac Plus](/assets/mac/system755.png)
