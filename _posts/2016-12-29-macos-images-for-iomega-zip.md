@@ -20,7 +20,7 @@ If you use OS X / Linux, the images can be written to the zip floppies using the
 
 where /dev/diskX is the appropriate device. On the OS X it's a good idea to disable the automount feature, as the OS may corrupt the old HFS filesystem once it's written. The [Disk Arbitrator](https://github.com/aburgh/Disk-Arbitrator/releases) can be used for this purpose.
 
-The images can be also used with emulators (like vMac or Basilisk II). It's only required to extract the HFS filesystem (as the image also contains the IOmega drive, partition table which confuses the emulator etc.):
+The images can be also used with emulators (like vMac or Basilisk II). It's only required to extract the HFS filesystem (as the image also contains the IOmega drive, partition table which confuses the emulator):
 
     gzip -c system608-zip.image.gz | dd bs=512 count=196106 skip=491 of=system608-hfs.image
 
