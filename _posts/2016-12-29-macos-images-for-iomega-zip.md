@@ -12,6 +12,8 @@ I dumped the zip floppies into disk images, so they can be easily restored. All 
 * [System 7.1](/files/macos/system710-zip.image.gz)
 * [System 7.5.5](/files/macos/system755-zip.image.gz)
 
+<!--more-->
+
 Besides from the system, images contain a fair amount of abandonware tools and games (MacWrite, MacPaint, MS Excel & Word, StuffIt, ZTerm, Civilization, Lemmings, etc.)
 
 If you use OS X / Linux, the images can be written to the zip floppies using the `dd` command:

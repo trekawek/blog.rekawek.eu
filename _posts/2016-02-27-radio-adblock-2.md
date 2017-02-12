@@ -7,6 +7,8 @@ In the [previous post](/2016/02/24/radio-adblock/) I described the process of cr
 
 ![Yamaha R-N301]({{ site.baseurl }}/assets/yamaha-rn301.jpg){:width="50%"}
 
+<!--more-->
+
 ## missing parts
 
 So, I already have the algorithm, but I'm missing 3 elements required to run it in the real world of my flat:

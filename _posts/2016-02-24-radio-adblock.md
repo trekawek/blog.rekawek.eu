@@ -5,6 +5,7 @@ layout: post
 
 Polish Radio Three (so-called Trójka) is famous for broadcasting good music and having non-offensive speakers. On the other hand it suffers from the number of commercial blocks between auditions. The ads, usually related to drugs or electronics are loud and irritating. Trójka accompanies me in home and at work for most of the time, so I wondered if there's something than can be done about the ads. It seems there is.
 
+
 ## digital signal processing
 
 My aim is to create an app that mutes the ads. The commercial block starts and finishes with a jingle, so the potential software should recognize these specific sounds and turn off the volume between them.
@@ -14,6 +15,8 @@ My aim is to create an app that mutes the ads. The commercial block starts and f
 <iframe width="100%" height="116" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248847022&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;liking=false&amp;sharing=false&amp;show_artwork=false"></iframe>
 
 I know that the area of maths/computer science dealing with these kinds of problems is called *digital signal processing*, but it always seems like a magic for me - so this is a great opportunity to learn something new. I spend a day or two trying to find out what mechanism can be used to analyze an audio stream looking for a jingle. And I found it, eventually - it's called *cross-corellation*.
+
+<!--more-->
 
 ## Octave
 

@@ -11,6 +11,8 @@ In the museum you will find a former [ballistic missile](https://en.wikipedia.or
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/108786967@N03/29376655486/in/album-72157673228457166/" title="IMG_2861"><img src="https://c7.staticflickr.com/9/8250/29376655486_998049796e_z.jpg" width="640" height="480" alt="IMG_2861"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+<!--more-->
+
 # Renting a car
 
 The lady at the Avis counter tried really hard to give me this Camaro.
