@@ -96,7 +96,7 @@ Apparently, it works :)
 
 ## standalone version
 
-I also prepared a simple standalone version of the analyzer, that connects to the Trójka stream on its own (without an external `ffmpeg`) and plays the result using `javax.sound`. The whole thing is a single JAR file and contains a basic start/stop UI. It can be downloaded here: [radioblock.jar]({{ site.baseurl }}/files/radioblock-1.3.0.jar). If you feel uneasy about running a foreign JAR on your machine (like you should do), all the sources can be found on my [GitHub](https://github.com/trekawek/radioblock).
+I also prepared a simple standalone version of the analyzer, that connects to the Trójka stream on its own (without an external `ffmpeg`) and plays the result using `javax.sound`. The whole thing is a single JAR file and contains a basic start/stop UI. It can be downloaded here: [radioblock.jar]({{ site.baseurl }}/files/radioblock-1.3.1.jar). If you feel uneasy about running a foreign JAR on your machine (like you should do), all the sources can be found on my [GitHub](https://github.com/trekawek/radioblock).
 
 ![Radioblock]({{ site.baseurl }}/assets/radioblock-swing-ui.png)
 
