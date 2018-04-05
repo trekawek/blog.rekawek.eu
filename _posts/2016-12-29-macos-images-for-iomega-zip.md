@@ -18,14 +18,21 @@ Besides from the system, images contain a fair amount of abandonware tools and g
 
 If you use OS X / Linux, the images can be written to the zip floppies using the `dd` command:
 
-    gzip -c system608-zip.image.gz | dd of=/dev/diskX
+    gzip -dc system608-zip.image.gz | dd of=/dev/diskX
 
 where /dev/diskX is the appropriate device. On the OS X it's a good idea to disable the automount feature, as the OS may corrupt the old HFS filesystem once it's written. The [Disk Arbitrator](https://github.com/aburgh/Disk-Arbitrator/releases) can be used for this purpose.
 
 The images can be also used with emulators (like vMac or Basilisk II). It's only required to extract the HFS filesystem (as the image also contains the IOmega drive, partition table which confuses the emulator):
 
-    gzip -c system608-zip.image.gz | dd bs=512 count=196106 skip=491 of=system608-hfs.image
+    gzip -dc system608-zip.image.gz | dd bs=512 count=196106 skip=491 of=system608-hfs.image
 
 The resulting `system608-hfs.image` is an emulator-bootable image:
 
 ![System 7.5.5 on Mac Plus](/assets/mac/system755.png)
+
+I also prepared the same images in the native MacOS format (.hqx + DiskCopy 6):
+
+* [System 6.0.8](/files/macos/system608-diskcopy.img.hqx)
+* [System 7.0.1](/files/macos/system701-diskcopy.img.hqx)
+* [System 7.1](/files/macos/system710-diskcopy.img.hqx)
+* [System 7.5.5](/files/macos/system755-diskcopy.img.hqx)
