@@ -81,24 +81,27 @@ I experimented a bit with the buffer length and got the best results with buffer
 
 ## putting it all together
 
-Getting the stream in PCM format is easy and can be done using aforementioned `ffmpeg` - the command below redirects the stream into the `java` standard input and then plays the result:
+Getting the stream in PCM format is easy and can be done using aforementioned `ffmpeg` - the command below redirects the stream into the `java` standard input and then outputs `Got jingle 0` or `Got jingle 1` when the respective sample was found in the stream.
 
-    ffmpeg -loglevel -8 \
-           -i http://stream3.polskieradio.pl:8904/\;stream \
-           -f s16le -acodec pcm_s16le - \
-      | java -cp analyzer-1.0.0-SNAPSHOT.jar \
-                 eu.rekawek.radioblock.MuteableMain RATE_44_1 \
-      | play -r 44100 -b 16 -c 2 -e signed -t raw -
-
-Apparently, it works :)
-
-<iframe width="100%" height="116" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248995303&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;liking=false&amp;sharing=false&amp;show_artwork=false"></iframe>
+```bash
+ffmpeg -loglevel -8 \
+       -i http://stream3.polskieradio.pl:8904/\;stream \
+       -f s16le -acodec pcm_s16le - \
+  | java -jar target/analyzer-1.0.0-SNAPSHOT-jar-with-dependencies.jar \
+    2 \
+    src/test/resources/commercial-start-44.1k.raw 500 \
+    src/test/resources/commercial-end-44.1k.raw 700
+```
 
 ## standalone version
 
 I also prepared a simple standalone version of the analyzer, that connects to the Trójka stream on its own (without an external `ffmpeg`) and plays the result using `javax.sound`. The whole thing is a single JAR file and contains a basic start/stop UI. It can be downloaded here: [radioblock.jar]({{ site.baseurl }}/files/radioblock-1.3.1.jar). If you feel uneasy about running a foreign JAR on your machine (like you should do), all the sources can be found on my [GitHub](https://github.com/trekawek/radioblock).
 
 ![Radioblock]({{ site.baseurl }}/assets/radioblock-swing-ui.png)
+
+Apparently, it works :)
+
+<iframe width="100%" height="116" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248995303&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;liking=false&amp;sharing=false&amp;show_artwork=false"></iframe>
 
 ## further work
 
