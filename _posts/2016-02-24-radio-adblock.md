@@ -14,13 +14,13 @@ My aim is to create an app that mutes the ads. The commercial block starts and f
 
 <iframe width="100%" height="116" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248847022&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;liking=false&amp;sharing=false&amp;show_artwork=false"></iframe>
 
-I know that the area of maths/computer science dealing with these kinds of problems is called *digital signal processing*, but it always seems like a magic for me - so this is a great opportunity to learn something new. I spend a day or two trying to find out what mechanism can be used to analyze an audio stream looking for a jingle. And I found it, eventually - it's called *cross-corellation*.
+I know that the area of maths/computer science dealing with these kinds of problems is called *digital signal processing*, but it always seems like a magic for me - so this is a great opportunity to learn something new. I spend a day or two trying to find out what mechanism can be used to analyze an audio stream looking for a jingle. And I found it, eventually - it's called *cross-correlation*.
 
 <!--more-->
 
 ## Octave
 
-People usually describes the cross-corellation referring to the MATLAB implementation. MATLAB is an expensive application that makes it easy to perform complex mathematical operations, including DSP operations. Fortunatelly, there's a free alternative to MATLAB, called [Octave](https://www.gnu.org/software/octave/). It seems it's quite easy to run cross-corellation on two audio files using Octave. All you have to do is to run following commands:
+People usually describes the cross-correlation referring to the MATLAB implementation. MATLAB is an expensive application that makes it easy to perform complex mathematical operations, including DSP operations. Fortunatelly, there's a free alternative to MATLAB, called [Octave](https://www.gnu.org/software/octave/). It seems it's quite easy to run cross-correlation on two audio files using Octave. All you have to do is to run following commands:
 
     pkg load signal
     jingle = wavread('jingle.wav')(:,1);
@@ -67,7 +67,7 @@ In order to implement the `xcorr()` function in Java, I looked into the Octave's
     cor  = ifft(pre .* conj(post));
     R    = real(cor(1:2 * N));
 
-It looks quite scary, but most of the functions are trivial array operations. The heart of the cross-corellation is applying the *fast Fourier transform* on the sound sample.
+It looks quite scary, but most of the functions are trivial array operations. The heart of the cross-correlation is applying the *fast Fourier transform* on the sound sample.
 
 ## fast Fourier transform
 
@@ -75,7 +75,7 @@ As someone who didn't have earlier experience with DSP, I've simply treated the 
 
 ## running xcorr on a stream
 
-As you may see, the algorithm above assumes that the `audio` is an array, in which we are looking for the `jingle`. That's not exactly the case for the radio broadcast, where we have a continous stream of sound. In order to run the analysis, I created a round-robin buffer, slightly longer than the jingle I'm looking for. The incoming stream fills the buffer and once it's full, I run the cross-corellation test. If there's nothing found, I discard the oldest part of the buffer and then wait until it's full again.
+As you may see, the algorithm above assumes that the `audio` is an array, in which we are looking for the `jingle`. That's not exactly the case for the radio broadcast, where we have a continous stream of sound. In order to run the analysis, I created a round-robin buffer, slightly longer than the jingle I'm looking for. The incoming stream fills the buffer and once it's full, I run the cross-correlation test. If there's nothing found, I discard the oldest part of the buffer and then wait until it's full again.
 
 I experimented a bit with the buffer length and got the best results with buffer 1.5 times bigger than the jingle size.
 
