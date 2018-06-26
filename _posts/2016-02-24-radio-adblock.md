@@ -110,3 +110,4 @@ The final goal is to mute ads on a hardware amplituner, receiving a "real" FM si
 ## update (June 2018)
 
 [Hacker News discussion](https://news.ycombinator.com/item?id=17385563)
+[Wykop discussion](https://www.wykop.pl/link/4385801/radio-adblock/)
