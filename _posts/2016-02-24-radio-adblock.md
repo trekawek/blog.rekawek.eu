@@ -111,3 +111,4 @@ The final goal is to mute ads on a hardware amplituner, receiving a "real" FM si
 
 [Hacker News discussion](https://news.ycombinator.com/item?id=17385563)
 [Wykop discussion](https://www.wykop.pl/link/4385801/radio-adblock/)
+[reddit discussion](https://www.reddit.com/r/programming/comments/8to4wm/radio_adblock/)
