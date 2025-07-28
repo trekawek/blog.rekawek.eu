@@ -53,7 +53,7 @@ However, synchronizing button presses between two emulators should be a solved p
 
 This idea is called rollback netplay and it’s based on the emulator’s ability to create a snapshot of the internal state in every frame, together with the local button states. If we receive a remote button press from the past, we can just rewind emulation, apply the event and fast-forward again to the current frame, applying all local buttons pressed in the meantime. Usually we don’t need to go back too far \- just a few frames, so the whole operation is transparent to the user. If the remote event comes with a future frame id \- that’s fine too, we can fast-forward the local emulator state to that frame and just apply it.
 
-![Game Boy event log](/files/rollback-netplay-gb/event-log.png)
+[![Game Boy event log](/files/rollback-netplay-gb/event-log-small.png)](/files/rollback-netplay-gb/event-log.png)
 
 This whole idea resembles how Git or any distributed database works. There’s a commit list (list of snapshots) and a remote commit, rebasing the history. Luckily, in this case we won’t have any conflicts, because the local player is fully in control of the Game Boy 1 and the remote player controls the (invisible) Game Boy 2 in our hybrid, two-console system. They only communicate via the local serial link (which also has a tiny state that needs to be rewound).
 
