@@ -63,4 +63,4 @@ Finally, after joining it all together and fixing a few bugs I ran Bust-a-Move M
 
 There were a few loose ends, like battery save support (these need to be transmitted too, before the emulation starts), but finally after a few days I was able to get it to the desired state. I’m quite happy with the result. I’m already thinking about a feature that I can add in the next 8 years\!
 
-<iframe width="672" height="378" src="https://www.youtube.com/embed/X2ykd3_oGuw?si=SOdvhfIKXYTNGlPJ&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X2ykd3_oGuw?si=SOdvhfIKXYTNGlPJ&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
